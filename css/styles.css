@@ -9,8 +9,9 @@ body {
 }
 
 .subtitle {
-  font-family: "Rubik", sans-serif;
-  text-decoration: underline;
+  font-family: "Monserrat", sans-serif;
+  text-emphasis-style:triangle;
+  text-decoration-style: double;
 }
 
 .content {
