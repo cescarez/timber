@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(#4775ca, #89c1a8);
+  back
   line-height: 1.6;
   /* margin-top: 0px;
   margin-bottom: 0px;
@@ -7,8 +8,6 @@ body {
   margin-right: 0px;
   padding: 0px; */
   font-family: "Lato", sans-serif;
-  margin-left: 5%;
-  margin-right: auto;
   color: #231901;
 }
 
@@ -21,9 +20,30 @@ body {
 .subtitle {
   font-family: "Monserrat", sans-serif;
   text-decoration-style: double;
+  font-size: 175%;
 }
 
-img#height-lake {
+#header {
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: auto;
+  position: relative;
+  line-height: 0.92;
+}
+
+#content {
+  margin-left: 50px;
+  margin-right: auto;
+  position: relative;
+}
+
+img#left-lake {
+  float: left;
+  position: relative;
+  z-index: -1;
+}
+
+img#right-lake {
   float: right;
   position: relative;
   z-index: -1;
@@ -31,12 +51,15 @@ img#height-lake {
 
 img#tree-icon {
   float: left;
-  width: 60px;
-  margin-top: 25px;
+  width: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 form#woods-date {
   width: 100%;
+  position: relative;
+  /* background: #dbe2f2; */
 }
 
 /* img#mtn-pano {
