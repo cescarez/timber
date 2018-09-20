@@ -1,29 +1,45 @@
 body {
-  background: linear-gradient(0.25turn, #d6fffe, #4063a5);
+  background: linear-gradient(#4775ca, #89c1a8);
   line-height: 1.6;
+  /* margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px; */
+  font-family: "Lato", sans-serif;
+  margin-left: 5%;
+  margin-right: auto;
+  color: #231901;
 }
 
 .title {
   font-family: "Lato", sans-serif;
   font-weight: bold;
+  font-size: 500%;
 }
 
 .subtitle {
   font-family: "Monserrat", sans-serif;
-  text-emphasis-style:triangle;
   text-decoration-style: double;
 }
 
-.content {
-  font-family: "Karla", sans-serif;
-
+img#height-lake {
+  float: right;
+  position: relative;
+  z-index: -1;
 }
 
 img#tree-icon {
   float: left;
-  width: 10%;
+  width: 60px;
+  margin-top: 25px;
 }
-img#mtnpano {
+
+form#woods-date {
   width: 100%;
-  margin: 0px;
 }
+
+/* img#mtn-pano {
+  width: 100%;
+  height: auto;
+} */
