@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(0.25turn, #d6fffe, #4063a5);
+  line-height: 1.6;
+}
+
+.title {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: "Rubik", sans-serif;
+  text-decoration: underline;
+}
+
+.content {
+  font-family: "Karla", sans-serif;
+
+}
+
+img#tree-icon {
+  float: left;
+  width: 10%;
+}
+img#mtnpano {
+  width: 100%;
+  margin: 0px;
+}
