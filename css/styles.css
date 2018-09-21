@@ -3,6 +3,47 @@ body {
   line-height: 1.6;
   font-family: "Lato", sans-serif;
   color: #231901;
+  font-size: 150%;
+}
+
+select {
+  float: right;
+}
+
+.question {
+  float: left;
+  text-align: right;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+.two {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.three {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+}
+.four {
+  grid-column: 2 / 4;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2 / 4;
+  grid-row: 4;
+}
+.six {
+  grid-column: 1 / 4;
+  grid-row: 5;
 }
 
 .title {
@@ -57,6 +98,8 @@ form#woods-date {
   position: relative;
   /* background: #dbe2f2; */
 }
+
+
 
 /* img#mtn-pano {
   width: 100%;

@@ -12,23 +12,20 @@
 <img src="img/blanca-left.png" id="left-lake">
 <img src="img/blanca-right.png" id="right-lake">
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div id="header">
-          <img src="img/tree.png" alt="outline of an evergreen tree" id="tree-icon">
-          <p><span class="title">timber </span>
-            <br><span class="subtitle">find your perfect woods-date</span></p>
-        </div>
+  <div class="wrapper">
+    <div class="one">
+      <div id="header">
+        <img src="img/tree.png" alt="outline of an evergreen tree" id="tree-icon">
+        <p><span class="title">timber </span>
+          <br><span class="subtitle">find your perfect woods-date</span></p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
+    <!-- <div class="two"> -->
         <div id="content">
           <form id="woods-date">
-            <div id="">
-              <p>Describe yourself:</p>
+            <div class="two">
+            <div id="q1">
+              <p class="float-left">Describe yourself:</p>
               <select class="form-control" id="woodsy">
                 <option value="1">Vampire</option>
                 <option value="2">Indoorsy</option>
@@ -36,7 +33,9 @@
                 <option value="4">Mostly Tree</option>
               </select>
             </div>
-            <div id="">
+            <!-- <div id="q2"> -->
+
+              <p class="question">How long would you like to stay outside?</p>
               <select class="form-control" id="">
                 <option value="1"></option>
                 <option value="2"></option>
@@ -44,7 +43,7 @@
                 <option value="4"></option>
               </select>
             </div>
-            <div id="">
+            <div id="q3">
               <select class="form-control" id="">
                 <option value="1"></option>
                 <option value="2"></option>
@@ -55,13 +54,12 @@
           </form>
         </div>
       </div>
-      <div class="col-md-2"></div>
-    </div>
-    <div class="row">
+    <!-- </div> -->
+    <div class="three">
       <div id="answers">
       </div>
     </div>
-    <div class="row">
+    <div class="four">
       <div id="footer">
       </div>
     </div>
