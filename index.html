@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="two" class="question">
-      <p>First, imagine you're in a(n):</p>
+      <p>First, imagine your surroundings are:</p>
       <p>Describe yourself:</p>
       <p>How long would you like to stay outside?</p>
       <p>How far are you willing to walk?</p>
@@ -31,29 +31,47 @@
     </div>
     <div class="three">
       <form id="woods-date">
-        <select class="form-control" id="ambiance">
-          <option value="blue">Ocean</option>
-          <option value="green">Forest</option>
-          <option value="white">Mountains</option>
-          <option value="random">Surprise me!</option>
-        </select>
+        <div class="radio">
+          <label>
+            <input type="radio" name="ambiance" value="ocean">
+            Ocean
+          </label>
+        </div>
+        <div class="radio">
+          <label id="ambiance">
+            <input type="radio" name="ambiance" value="forest">
+            Forest
+          </label>
+        </div>
+        <div class="radio">
+          <label id="ambiance">
+            <input type="radio" name="ambiance" value="mountain" >
+            Mountains
+          </label>
+        </div>
         <select class="form-control" id="woodsy">
           <option value="1">Vampire</option>
           <option value="2">Indoorsy</option>
           <option value="3">Outdoorsy</option>
           <option value="4">Mostly Tree</option>
         </select>
-        <select class="form-control" id="outsidey">
+        <select class="form-control" id="duration">
           <option value="4">All day, all night.</option>
           <option value="3">3-5 hours</option>
           <option value="2">1-2 hours</option>
           <option value="1">Is there a negative option?</option>
         </select>
-        <select class="form-control" id="">
-          <option value="1"></option>
-          <option value="2"></option>
-          <option value="3"></option>
-          <option value="4"></option>
+        <select class="form-control" id="distance">
+          <option value="1">0-1 miles</option>
+          <option value="2">3-5</option>
+          <option value="3">7-12 miles</option>
+          <option value="4">I would walk five hundred miles!</option>
+        </select>
+        <select class="form-control" id="gear">
+          <option value="2">a water bottle</option>
+          <option value="3">the above + phone with GPS capability</option>
+          <option value="4">all of the above and the kitchen sink</option>
+          <option value="1">none of the above, but a stellar personality</option>
         </select>
         <button type="submit" class="btn btn-success">find your space!</button>
       </form>
