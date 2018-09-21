@@ -18,7 +18,8 @@ _Want to experience the outdoors, but don't kmow where to start? Use this webpag
 
 ## Known Bugs
 
-_No known bugs, to date._
+_Webpage is in progress;
+currently, the left and right images do not appear when #ambiance is selected_
 
 ## Support and contact details
 

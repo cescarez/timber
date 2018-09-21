@@ -1,5 +1,4 @@
 body {
-  background: linear-gradient(#4775ca, #89c1a8);
   line-height: 1.6;
   font-family: "Lato", sans-serif;
   color: #231901;
@@ -7,13 +6,6 @@ body {
 }
 
 select {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.question {
   margin-right: auto;
   margin-left: auto;
   margin-top: 5%;
@@ -57,6 +49,36 @@ select {
   grid-row: 6;
 }
 
+.left-img {
+  float: left;
+  position: relative;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.right-img {
+  float: right;
+  position: relative;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.mtn {
+  display: none;
+}
+
+.bg-blue {
+  background: linear-gradient(#4775ca, #89c1a8);
+}
+
+.bg-green {
+  background: linear-gradient(#4775ca, #89c1a8);
+}
+
+.bg-gray {
+  background-color: linear-gradient(#4775ca, #89c1a8);
+}
+
 .title {
   font-family: "Lato", sans-serif;
   font-weight: bold;
@@ -67,6 +89,13 @@ select {
   font-family: "Monserrat", sans-serif;
   text-decoration-style: double;
   font-size: 175%;
+}
+
+.question {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 
 #header {
@@ -83,31 +112,17 @@ select {
   position: relative;
 }
 
-img#left-lake {
-  float: left;
-  position: relative;
-  opacity: 0.8;
-  z-index: -1;
-}
-
-img#right-lake {
-  float: right;
-  position: relative;
-  opacity: 0.8;
-  z-index: -1;
-}
-
 img#tree-icon {
   float: left;
   width: 80px;
   margin-top: auto;
   margin-bottom: auto;
+
 }
 
-form#woods-date {
+/* form#woods-date {
   width: 100%;
-  /* background: #dbe2f2; */
-}
+} */
 
 
 
