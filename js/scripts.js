@@ -5,11 +5,13 @@ $(document).ready(function() {
     if (ambianceInput === "ocean") {
       $(".forest").hide();
       $(".mtn").hide();
+      $(".ocean").show();
       $("body").removeClass();
       $("body").addClass("bg-blue");
     } else if (ambianceInput === "forest") {
       $(".ocean").hide();
       $(".mtn").hide();
+      $(".forest").show();
       $("body").removeClass();
       $("body").addClass("bg-green");
     } else if (ambianceInput === "mountain") {
