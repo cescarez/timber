@@ -73,22 +73,30 @@ select {
   display: none;
 }
 
+#hood, #cannon, #multnomah, #mind {
+  display: none;
+}
+
 .bg-blue {
   background: linear-gradient(#4775ca, #89c1a8);
 }
 
-.bg-green {
-  background: linear-gradient( #196f3d, #a9dfbf);
+.bg-green /* form#woods-date {
+  width: 100%;
+} */{
+  background: linear-.mtngradient( #196f3d, #a9dfbf);
 }
 
 .title {
   font-family: "Lato", sans-serif;
-  font-weight: bold;
-  font-size: 500%;
+  font-wei/* form#woods-date {
+  width: 100%;
+} */ght: bold;
+  font-size: 500%;.mtn
 }
 
 .subtitle {
-  font-family: "Monserrat", sans-serif;
+  font-family: "Monse.mtnrrat", sans-serif;
   text-decoration-style: double;
   font-size: 175%;
 }
@@ -97,6 +105,7 @@ select {
   margin-right: auto;
   margin-left: auto;
   padding: 5px;
+  margin-bottom: 5px;
 }
 
 #header {
@@ -113,12 +122,11 @@ img#tree-icon {
   width: 80px;
   margin-top: auto;
   margin-bottom: auto;
-
 }
 
-/* form#woods-date {
+#answers {
   width: 100%;
-} */
+}
 
 
 
