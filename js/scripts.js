@@ -3,14 +3,18 @@ $(document).ready(function() {
     var ambianceInput = $("input:radio[name=ambiance]:checked").val();
 
     if (ambianceInput === "ocean") {
+      $(".forest").hide();
       $(".mtn").hide();
       $("body").removeClass();
       $("body").addClass("bg-blue");
     } else if (ambianceInput === "forest") {
+      $(".ocean").hide();
       $(".mtn").hide();
       $("body").removeClass();
       $("body").addClass("bg-green");
     } else if (ambianceInput === "mountain") {
+      $(".ocean").hide();
+      $(".forest").hide();
       $("body").removeClass();
       $("body").addClass("bg-blue");
       $(".mtn").show();
