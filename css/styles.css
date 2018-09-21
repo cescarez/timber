@@ -1,12 +1,6 @@
 body {
   background: linear-gradient(#4775ca, #89c1a8);
-  back
   line-height: 1.6;
-  /* margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px; */
   font-family: "Lato", sans-serif;
   color: #231901;
 }
@@ -40,12 +34,14 @@ body {
 img#left-lake {
   float: left;
   position: relative;
+  opacity: 0.8;
   z-index: -1;
 }
 
 img#right-lake {
   float: right;
   position: relative;
+  opacity: 0.8;
   z-index: -1;
 }
 
