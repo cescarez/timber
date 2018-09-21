@@ -1,6 +1,10 @@
 $(document).ready(function() {
+  $("form#woods-date").select(function(event) {
+    event.preventDefault();
+
   $("form#woods-date").submit(function(event) {
     event.preventDefault();
+
     var ambianceInput=$("#ambiance").val();
 
     if(ambianceInput="blue") {
@@ -17,8 +21,8 @@ $(document).ready(function() {
       $("body").removeClass();
     }
 
-    // var
-    // var destination=
+    var behavior=parseInt($("#woodsy").val());
+    var destination=parseInt($("#outsidey").val());
 
   });
 });
