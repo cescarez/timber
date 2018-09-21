@@ -7,43 +7,54 @@ body {
 }
 
 select {
-  float: right;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .question {
-  float: left;
-  text-align: right;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(4);
+  grid-gap: 0px;
   grid-auto-rows: minmax(100px, auto);
 }
+
 .one {
   grid-column: 1 / 4;
   grid-row: 1;
 }
+
 .two {
-  grid-column: 1;
-  grid-row: 2 / 5;
+  grid-column: 2;
+  grid-row: 2;
 }
+
 .three {
-  grid-column: 2 / 4;
-  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+  grid-row: 2;
 }
+
 .four {
-  grid-column: 2 / 4;
-  grid-row: 3;
-}
-.five {
-  grid-column: 2 / 4;
+  grid-column: 1 / 4;
   grid-row: 4;
 }
-.six {
+
+.five {
   grid-column: 1 / 4;
   grid-row: 5;
+}
+
+.footer {
+  grid-column: 1 / 4;
+  grid-row: 6;
 }
 
 .title {
@@ -63,7 +74,7 @@ select {
   margin-left: 5%;
   margin-right: auto;
   position: relative;
-  line-height: 0.92;
+  line-height: 0.9;
 }
 
 #content {
@@ -95,7 +106,6 @@ img#tree-icon {
 
 form#woods-date {
   width: 100%;
-  position: relative;
   /* background: #dbe2f2; */
 }
 
