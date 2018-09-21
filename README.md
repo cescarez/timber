@@ -7,7 +7,7 @@
 
 ## Description
 
-_Want to experience the outdoors, but don't kmow where to start? Use this webpage to find your perfect outdoor experience!_
+_Want to experience the outdoors, but don't know where to start? Use this webpage to find your perfect outdoor experience!_
 
 ## Setup/Installation Requirements
 
@@ -19,7 +19,7 @@ _Want to experience the outdoors, but don't kmow where to start? Use this webpag
 ## Known Bugs
 
 _Webpage is in progress;
-currently, the left and right images do not appear when #ambiance is selected_
+currently, submitted questions do not generate recommended hikes._
 
 ## Support and contact details
 
@@ -31,6 +31,8 @@ _Contact christabel.escarez@gmail.com with any technical issues._
 * _CSS_
   * _Bootstrap_
   * _Google Fonts API_
+* _JavaScript_
+* _jQuery_
 
 ### License
 
