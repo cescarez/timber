@@ -119,7 +119,8 @@ img#tree-icon {
 }
 
 .answer-img {
-  width: 100%;
+  width: auto;
+  height: auto;
   max-width: 800px;
   max-height: 700px;
   padding: 25px;
