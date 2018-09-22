@@ -31,7 +31,7 @@ _Contact christabel.escarez@gmail.com with any technical issues._
   * _Bootstrap_
   * _Google Fonts API_
 * _JavaScript_
-* _jQuery_
+  * _jQuery_
 
 ### License
 
