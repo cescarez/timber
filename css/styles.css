@@ -1,5 +1,3 @@
-/*side imgs = 102/1024px*/
-
 body {
   line-height: 1.6;
   font-family: "Lato", sans-serif;
@@ -8,9 +6,9 @@ body {
 }
 
 select {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
 }
 
 .wrapper {
@@ -43,11 +41,6 @@ select {
 .five {
   grid-column: 3;
   grid-row: 3;
-}
-
-.six {
-  grid-column: 1 / 4;
-  grid-row: 4;
 }
 
 .footer {
@@ -92,9 +85,9 @@ select {
 }
 
 .subtitle {
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-decoration-style: double;
-  font-size: 175%;
+  font-size: 165%;
 }
 
 .question {
@@ -110,7 +103,7 @@ select {
   margin-left: 5%;
   margin-right: auto;
   position: relative;
-  line-height: 0.9;
+  line-height: 0.65;
 }
 
 img#tree-icon {
@@ -118,9 +111,4 @@ img#tree-icon {
   width: 80px;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-#answers {
-  display: block;
-  width: 100%;
 }

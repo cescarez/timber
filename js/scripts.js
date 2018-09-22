@@ -20,22 +20,45 @@ $(document).ready(function() {
       $("body").removeClass();
       $("body").addClass("bg-blue");
       $(".mtn").show();
-    } else {
-      $(".mtn").hide();
-      $("body").removeClass();
     }
   });
 
   $("form#woods-date").submit(function(event) {
     event.preventDefault();
-
-    var behavior=parseInt($("#woodsy").val());
-    var duration=parseInt($("#duration").val());
-    var distance=parseInt($("#distance").val());
-    var access=parseInt($("#gear").val());
-    var destination= behavior + duration + distance + access
+    $("form").hide();
+    $(".question").hide();
+    // $(".four").hide();
+    // $(".five").hide();
 
 
+    var behavior = parseInt($("#woodsy").val());
+    var duration = parseInt($("#duration").val());
+    var distance = parseInt($("#distance").val());
+    var access = parseInt($("#gear").val());
+    var priority = $("#priority").val();
+    var destination = behavior + duration + distance + access
+
+    if (destination <= 6 && priority === "water" && priority !== "pedestrian") {
+      $("#cannon").show();
+      $("#multnomah").hide();
+      $("#hood").hide();
+      $("#mind").hide();
+    } else if (destination <= 6 && priority !== "water" || priority === "pedestrian") {
+    $("#cannon").hide();
+    $("#multnomah").hide();
+    $("#hood").hide();
+    $("#mind").show();
+    } else if (destination > 6 && destination <= 9) {
+      $("#cannon").hide();
+      $("#multnomah").show();
+      $("#hood").hide();
+      $("#mind").hide();
+    } else if (destination > 9) {
+      $("#cannon").hide();
+      $("#multnomah").hide();
+      $("#hood").show();
+      $("#mind").hide();
+    }
 
   });
 });
