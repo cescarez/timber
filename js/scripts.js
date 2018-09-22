@@ -42,17 +42,17 @@ $(document).ready(function() {
       $("#multnomah").hide();
       $("#hood").hide();
       $("#mind").hide();
-    } else if (destination <= 7 && priority !== "water" || priority === "pedestrian") {
+    } else if (destination <= 6 && priority !== "water" || priority === "pedestrian") {
     $("#cannon").hide();
     $("#multnomah").hide();
     $("#hood").hide();
     $("#mind").show();
-  } else if (destination > 7 && destination <= 11) {
+  } else if (destination > 7 && destination <= 12) {
       $("#cannon").hide();
       $("#multnomah").show();
       $("#hood").hide();
       $("#mind").hide();
-    } else if (destination > 11) {
+    } else if (destination > 12) {
       $("#cannon").hide();
       $("#multnomah").hide();
       $("#hood").show();
