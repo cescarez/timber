@@ -37,22 +37,22 @@ $(document).ready(function() {
     var priority = $("#priority").val();
     var destination = behavior + duration + distance + access
 
-    if (destination <= 6 && priority === "water" && priority !== "pedestrian") {
+    if (destination <= 7 && priority === "water" && priority !== "pedestrian") {
       $("#cannon").show();
       $("#multnomah").hide();
       $("#hood").hide();
       $("#mind").hide();
-    } else if (destination <= 6 && priority !== "water" || priority === "pedestrian") {
+    } else if (destination <= 7 && priority !== "water" || priority === "pedestrian") {
     $("#cannon").hide();
     $("#multnomah").hide();
     $("#hood").hide();
     $("#mind").show();
-    } else if (destination > 6 && destination <= 9) {
+  } else if (destination > 7 && destination <= 11) {
       $("#cannon").hide();
       $("#multnomah").show();
       $("#hood").hide();
       $("#mind").hide();
-    } else if (destination > 9) {
+    } else if (destination > 11) {
       $("#cannon").hide();
       $("#multnomah").hide();
       $("#hood").show();
