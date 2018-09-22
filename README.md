@@ -18,8 +18,7 @@ _Want to experience the outdoors, but don't know where to start? Use this webpag
 
 ## Known Bugs
 
-_Webpage is in progress;
-currently, submitted questions do not generate recommended hikes._
+_No known bugs, to date._
 
 ## Support and contact details
 
