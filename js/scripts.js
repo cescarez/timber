@@ -27,8 +27,7 @@ $(document).ready(function() {
     event.preventDefault();
     $("form").hide();
     $(".question").hide();
-    // $(".four").hide();
-    // $(".five").hide();
+    $("#retake").show();
 
 
     var behavior = parseInt($("#woodsy").val());
@@ -59,6 +58,19 @@ $(document).ready(function() {
       $("#hood").show();
       $("#mind").hide();
     }
+  });
 
+  $("#retake").click(function() {
+    $(".forest").hide();
+    $(".mtn").hide();
+    $(".ocean").hide();
+    $("#cannon").hide();
+    $("#multnomah").hide();
+    $("#hood").hide();
+    $("#mind").hide();
+    $("body").removeClass();
+    $("#retake").hide();
+    $("form").show();
+    $(".question").show();
   });
 });

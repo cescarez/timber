@@ -6,8 +6,8 @@ body {
 }
 
 select {
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
     margin-bottom: 5px;
 }
 
@@ -66,7 +66,7 @@ select {
   display: none;
 }
 
-#hood, #cannon, #multnomah, #mind {
+#hood, #cannon, #multnomah, #mind, #retake {
   display: none;
 }
 
@@ -111,4 +111,18 @@ img#tree-icon {
   width: 80px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+#retake {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.answer-img {
+  width: 100%;
+  max-width: 800px;
+  max-height: 700px;
+  padding: 25px;
 }
