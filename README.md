@@ -11,7 +11,7 @@ _Want to experience the outdoors, but don't know where to start? Use this webpag
 
 ## Setup/Installation Requirements
 
-1. _Clone repository._
+1. _Clone repository. (https://github.com/cescarez/timber.git)_
 2. _Open index.html_
 3. _Populate then submit the form to retrieve your recommended hike!_
 
