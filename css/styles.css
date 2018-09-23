@@ -125,3 +125,35 @@ img#tree-icon {
   max-height: 700px;
   padding: 25px;
 }
+
+@media (max-width: 480px) {
+  body {
+    font-size: 200%;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 150%;
+  }
+  img#banner {
+    display: none;
+  }
+  img#banner-lg-text {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+@media (mx-width: 1024) {
+  body {
+    width: 1250px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1275px) {
+  body {
+    width: 1250px;
+    margin: auto;
+  }
+}
