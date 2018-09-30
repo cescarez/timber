@@ -18,7 +18,7 @@ _Want to experience the outdoors, but don't know where to start? Use this webpag
 
 ## Known Bugs
 
-_No known bugs, to date._
+_No known bugs, to date. That being said, the layout is probably strange in browsers that are not running on the latest release._
 
 ## Support and contact details
 
@@ -28,10 +28,11 @@ _Contact christabel.escarez@gmail.com with any technical issues._
 
 * _HTML_
 * _CSS_
-  * _Bootstrap_
-  * _Google Fonts API_
+  * _Bootstrap 3.3.7_
+  * _Google Fonts_
+  * _CSS Grid_
 * _JavaScript_
-  * _jQuery_
+  * _jQuery 3.3.1_
 
 ### License
 
